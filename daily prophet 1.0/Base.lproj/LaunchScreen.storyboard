@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="ipad12_9rounded" orientation="portrait" layout="fullscreen" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="X4v-mO-5QZ">
+                                <rect key="frame" x="20" y="20" width="984" height="1306"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sYa-4k-AaD">
+                                        <rect key="frame" x="0.0" y="0.0" width="984" height="876.5"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Daily Prophet Logo" translatesAutoresizingMaskIntoConstraints="NO" id="xkd-Kg-xAT">
+                                                <rect key="frame" x="0.0" y="0.0" width="984" height="876.5"/>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" name="Color"/>
+                                        <constraints>
+                                            <constraint firstItem="xkd-Kg-xAT" firstAttribute="leading" secondItem="sYa-4k-AaD" secondAttribute="leading" id="U4K-ri-v3l"/>
+                                            <constraint firstAttribute="bottom" secondItem="xkd-Kg-xAT" secondAttribute="bottom" id="VcX-3c-u2O"/>
+                                            <constraint firstAttribute="trailing" secondItem="xkd-Kg-xAT" secondAttribute="trailing" id="b7z-3a-oxX"/>
+                                            <constraint firstItem="xkd-Kg-xAT" firstAttribute="top" secondItem="sYa-4k-AaD" secondAttribute="top" id="tVM-hM-8ct"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ItV-8r-98c">
+                                        <rect key="frame" x="0.0" y="926.5" width="984" height="379.5"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Daily Prophet Title" translatesAutoresizingMaskIntoConstraints="NO" id="bEx-mM-DQy">
+                                                <rect key="frame" x="0.0" y="0.0" width="984" height="379.5"/>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" name="Color"/>
+                                        <constraints>
+                                            <constraint firstItem="bEx-mM-DQy" firstAttribute="leading" secondItem="ItV-8r-98c" secondAttribute="leading" id="Mrx-SQ-eyk"/>
+                                            <constraint firstItem="bEx-mM-DQy" firstAttribute="leading" secondItem="ItV-8r-98c" secondAttribute="leading" id="N6s-gx-1et"/>
+                                            <constraint firstAttribute="trailing" secondItem="bEx-mM-DQy" secondAttribute="trailing" id="asl-9Q-x9o"/>
+                                            <constraint firstItem="bEx-mM-DQy" firstAttribute="top" secondItem="ItV-8r-98c" secondAttribute="top" id="cXD-Fk-Bdo"/>
+                                            <constraint firstAttribute="bottom" secondItem="bEx-mM-DQy" secondAttribute="bottom" id="hri-Ud-yUK"/>
+                                            <constraint firstAttribute="trailing" secondItem="bEx-mM-DQy" secondAttribute="trailing" id="nTS-Yc-tMD"/>
+                                            <constraint firstAttribute="bottom" secondItem="bEx-mM-DQy" secondAttribute="bottom" id="sQR-tN-ez2"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="sYa-4k-AaD" firstAttribute="top" secondItem="X4v-mO-5QZ" secondAttribute="top" id="2hg-mf-gh3"/>
+                                    <constraint firstItem="sYa-4k-AaD" firstAttribute="leading" secondItem="X4v-mO-5QZ" secondAttribute="leading" id="OsH-m7-jT0"/>
+                                    <constraint firstAttribute="trailing" secondItem="sYa-4k-AaD" secondAttribute="trailing" id="g63-Jk-9Y6"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" name="Color"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="X4v-mO-5QZ" secondAttribute="trailing" constant="20" id="LU7-f4-QHs"/>
+                            <constraint firstItem="X4v-mO-5QZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="PYa-NX-Avh"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="X4v-mO-5QZ" secondAttribute="bottom" constant="20" id="X96-ev-GX0"/>
+                            <constraint firstItem="X4v-mO-5QZ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="hDj-dJ-16c"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.734375" y="374.67057101024886"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Daily Prophet Logo" width="158" height="169"/>
+        <image name="Daily Prophet Title" width="341" height="107.5"/>
+        <namedColor name="Color">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+    </resources>
+</document>

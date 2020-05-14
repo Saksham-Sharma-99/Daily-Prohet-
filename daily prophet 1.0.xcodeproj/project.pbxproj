@@ -1,0 +1,499 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		405F174324693C37005201A4 /* NewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405F174124693C37005201A4 /* NewsCell.swift */; };
+		405F174424693C37005201A4 /* NewsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 405F174224693C37005201A4 /* NewsCell.xib */; };
+		4064D38F2465462200980E9C /* 3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4064D38E2465462200980E9C /* 3.mp3 */; };
+		4064D39224654C1A00980E9C /* owl.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4064D39124654C1A00980E9C /* owl.mp3 */; };
+		4064D3942465770600980E9C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4064D3932465770600980E9C /* GoogleService-Info.plist */; };
+		4064D3972465853900980E9C /* RegisterScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4064D3962465853900980E9C /* RegisterScreen.swift */; };
+		4064D3992465859300980E9C /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4064D3982465859300980E9C /* MainScreen.swift */; };
+		4078FB732466D26E0093A08C /* TopicCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4078FB712466D26E0093A08C /* TopicCell.swift */; };
+		4078FB742466D26E0093A08C /* TopicCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4078FB722466D26E0093A08C /* TopicCell.xib */; };
+		407C07E72464D39000AE178B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407C07E62464D39000AE178B /* AppDelegate.swift */; };
+		407C07E92464D39000AE178B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407C07E82464D39000AE178B /* SceneDelegate.swift */; };
+		407C07EB2464D39000AE178B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407C07EA2464D39000AE178B /* ViewController.swift */; };
+		407C07EE2464D39000AE178B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 407C07EC2464D39000AE178B /* Main.storyboard */; };
+		407C07F02464D39100AE178B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 407C07EF2464D39100AE178B /* Assets.xcassets */; };
+		407C07F32464D39100AE178B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 407C07F12464D39100AE178B /* LaunchScreen.storyboard */; };
+		407C07FD2464E73500AE178B /* AppBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407C07FC2464E73500AE178B /* AppBrain.swift */; };
+		408574312465CED2003AFDE1 /* WebData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408574302465CED2003AFDE1 /* WebData.swift */; };
+		408574332465E1E6003AFDE1 /* NewsPaperModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408574322465E1E6003AFDE1 /* NewsPaperModel.swift */; };
+		40B2F90A24674F4B002DDEDF /* newsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B2F90924674F4B002DDEDF /* newsScreen.swift */; };
+		FFA3EC41A96F4C885D94AF06 /* Pods_daily_prophet_1_0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 358F6AFD6321C6352011900B /* Pods_daily_prophet_1_0.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		078B521AE0063CD75C00A03C /* Pods-daily prophet 1.0.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-daily prophet 1.0.debug.xcconfig"; path = "Target Support Files/Pods-daily prophet 1.0/Pods-daily prophet 1.0.debug.xcconfig"; sourceTree = "<group>"; };
+		358F6AFD6321C6352011900B /* Pods_daily_prophet_1_0.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_daily_prophet_1_0.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		405F174124693C37005201A4 /* NewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCell.swift; sourceTree = "<group>"; };
+		405F174224693C37005201A4 /* NewsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsCell.xib; sourceTree = "<group>"; };
+		4064D38E2465462200980E9C /* 3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 3.mp3; sourceTree = "<group>"; };
+		4064D39124654C1A00980E9C /* owl.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = owl.mp3; sourceTree = "<group>"; };
+		4064D3932465770600980E9C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4064D3962465853900980E9C /* RegisterScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterScreen.swift; sourceTree = "<group>"; };
+		4064D3982465859300980E9C /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
+		4078FB712466D26E0093A08C /* TopicCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicCell.swift; sourceTree = "<group>"; };
+		4078FB722466D26E0093A08C /* TopicCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TopicCell.xib; sourceTree = "<group>"; };
+		407C07E32464D39000AE178B /* daily prophet 1.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "daily prophet 1.0.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		407C07E62464D39000AE178B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		407C07E82464D39000AE178B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		407C07EA2464D39000AE178B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		407C07ED2464D39000AE178B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		407C07EF2464D39100AE178B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		407C07F22464D39100AE178B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		407C07F42464D39100AE178B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		407C07FC2464E73500AE178B /* AppBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppBrain.swift; sourceTree = "<group>"; };
+		408574302465CED2003AFDE1 /* WebData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebData.swift; sourceTree = "<group>"; };
+		408574322465E1E6003AFDE1 /* NewsPaperModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsPaperModel.swift; sourceTree = "<group>"; };
+		40B2F90924674F4B002DDEDF /* newsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newsScreen.swift; sourceTree = "<group>"; };
+		99D7F177FD1F79408D988773 /* Pods-daily prophet 1.0.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-daily prophet 1.0.release.xcconfig"; path = "Target Support Files/Pods-daily prophet 1.0/Pods-daily prophet 1.0.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		407C07E02464D39000AE178B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFA3EC41A96F4C885D94AF06 /* Pods_daily_prophet_1_0.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FAC5A551CBD24C0C7F3E7B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				358F6AFD6321C6352011900B /* Pods_daily_prophet_1_0.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4064D3902465464A00980E9C /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				4064D39124654C1A00980E9C /* owl.mp3 */,
+				4064D38E2465462200980E9C /* 3.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		4064D39524657E5400980E9C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				407C07EC2464D39000AE178B /* Main.storyboard */,
+				4078FB712466D26E0093A08C /* TopicCell.swift */,
+				4078FB722466D26E0093A08C /* TopicCell.xib */,
+				405F174124693C37005201A4 /* NewsCell.swift */,
+				405F174224693C37005201A4 /* NewsCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		407C07DA2464D39000AE178B = {
+			isa = PBXGroup;
+			children = (
+				407C07E52464D39000AE178B /* daily prophet 1.0 */,
+				407C07E42464D39000AE178B /* Products */,
+				9EDB95CED8C5AF10A4F4972E /* Pods */,
+				0FAC5A551CBD24C0C7F3E7B8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		407C07E42464D39000AE178B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				407C07E32464D39000AE178B /* daily prophet 1.0.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		407C07E52464D39000AE178B /* daily prophet 1.0 */ = {
+			isa = PBXGroup;
+			children = (
+				4064D3902465464A00980E9C /* Sounds */,
+				407C07E62464D39000AE178B /* AppDelegate.swift */,
+				407C07E82464D39000AE178B /* SceneDelegate.swift */,
+				407C07FB2464E71900AE178B /* Model */,
+				407C07FA2464E70D00AE178B /* controller */,
+				4064D39524657E5400980E9C /* View */,
+				407C07EF2464D39100AE178B /* Assets.xcassets */,
+				407C07F12464D39100AE178B /* LaunchScreen.storyboard */,
+				407C07F42464D39100AE178B /* Info.plist */,
+				4064D3932465770600980E9C /* GoogleService-Info.plist */,
+			);
+			path = "daily prophet 1.0";
+			sourceTree = "<group>";
+		};
+		407C07FA2464E70D00AE178B /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				407C07EA2464D39000AE178B /* ViewController.swift */,
+				4064D3962465853900980E9C /* RegisterScreen.swift */,
+				4064D3982465859300980E9C /* MainScreen.swift */,
+				40B2F90924674F4B002DDEDF /* newsScreen.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		407C07FB2464E71900AE178B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				407C07FC2464E73500AE178B /* AppBrain.swift */,
+				408574302465CED2003AFDE1 /* WebData.swift */,
+				408574322465E1E6003AFDE1 /* NewsPaperModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9EDB95CED8C5AF10A4F4972E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				078B521AE0063CD75C00A03C /* Pods-daily prophet 1.0.debug.xcconfig */,
+				99D7F177FD1F79408D988773 /* Pods-daily prophet 1.0.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		407C07E22464D39000AE178B /* daily prophet 1.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 407C07F72464D39100AE178B /* Build configuration list for PBXNativeTarget "daily prophet 1.0" */;
+			buildPhases = (
+				5A81C7E4193C52C027804259 /* [CP] Check Pods Manifest.lock */,
+				407C07DF2464D39000AE178B /* Sources */,
+				407C07E02464D39000AE178B /* Frameworks */,
+				407C07E12464D39000AE178B /* Resources */,
+				2DDCC252588200A737AF91AB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "daily prophet 1.0";
+			productName = "daily prophet 1.0";
+			productReference = 407C07E32464D39000AE178B /* daily prophet 1.0.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		407C07DB2464D39000AE178B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = sharma;
+				TargetAttributes = {
+					407C07E22464D39000AE178B = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = 407C07DE2464D39000AE178B /* Build configuration list for PBXProject "daily prophet 1.0" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 407C07DA2464D39000AE178B;
+			productRefGroup = 407C07E42464D39000AE178B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				407C07E22464D39000AE178B /* daily prophet 1.0 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		407C07E12464D39000AE178B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				407C07F32464D39100AE178B /* LaunchScreen.storyboard in Resources */,
+				4064D39224654C1A00980E9C /* owl.mp3 in Resources */,
+				405F174424693C37005201A4 /* NewsCell.xib in Resources */,
+				4064D3942465770600980E9C /* GoogleService-Info.plist in Resources */,
+				4078FB742466D26E0093A08C /* TopicCell.xib in Resources */,
+				407C07F02464D39100AE178B /* Assets.xcassets in Resources */,
+				407C07EE2464D39000AE178B /* Main.storyboard in Resources */,
+				4064D38F2465462200980E9C /* 3.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2DDCC252588200A737AF91AB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-daily prophet 1.0/Pods-daily prophet 1.0-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-daily prophet 1.0/Pods-daily prophet 1.0-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-daily prophet 1.0/Pods-daily prophet 1.0-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A81C7E4193C52C027804259 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-daily prophet 1.0-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		407C07DF2464D39000AE178B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40B2F90A24674F4B002DDEDF /* newsScreen.swift in Sources */,
+				4064D3992465859300980E9C /* MainScreen.swift in Sources */,
+				4064D3972465853900980E9C /* RegisterScreen.swift in Sources */,
+				408574312465CED2003AFDE1 /* WebData.swift in Sources */,
+				407C07EB2464D39000AE178B /* ViewController.swift in Sources */,
+				407C07E72464D39000AE178B /* AppDelegate.swift in Sources */,
+				408574332465E1E6003AFDE1 /* NewsPaperModel.swift in Sources */,
+				407C07FD2464E73500AE178B /* AppBrain.swift in Sources */,
+				4078FB732466D26E0093A08C /* TopicCell.swift in Sources */,
+				407C07E92464D39000AE178B /* SceneDelegate.swift in Sources */,
+				405F174324693C37005201A4 /* NewsCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		407C07EC2464D39000AE178B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				407C07ED2464D39000AE178B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		407C07F12464D39100AE178B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				407C07F22464D39100AE178B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		407C07F52464D39100AE178B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		407C07F62464D39100AE178B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		407C07F82464D39100AE178B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 078B521AE0063CD75C00A03C /* Pods-daily prophet 1.0.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8T33N4X96X;
+				INFOPLIST_FILE = "daily prophet 1.0/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.saksham.daily-prophet-1-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		407C07F92464D39100AE178B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99D7F177FD1F79408D988773 /* Pods-daily prophet 1.0.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8T33N4X96X;
+				INFOPLIST_FILE = "daily prophet 1.0/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.saksham.daily-prophet-1-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		407C07DE2464D39000AE178B /* Build configuration list for PBXProject "daily prophet 1.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				407C07F52464D39100AE178B /* Debug */,
+				407C07F62464D39100AE178B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		407C07F72464D39100AE178B /* Build configuration list for PBXNativeTarget "daily prophet 1.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				407C07F82464D39100AE178B /* Debug */,
+				407C07F92464D39100AE178B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 407C07DB2464D39000AE178B /* Project object */;
+}
