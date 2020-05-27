@@ -85,7 +85,8 @@ class newsScreen: UIViewController  , UITableViewDataSource{
                    y+=1
                }
     }
-    // MARK: - Navigatio
+    // MARK: - Nav
+    //test
     
     func GetImage (_ url : String)->UIImage
     {
